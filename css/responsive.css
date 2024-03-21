@@ -1,0 +1,81 @@
+@media screen and (max-width:1024px){
+	.row{
+		max-width:100%;
+		padding:0px 15px;
+      margin:auto;
+	}
+   html,body{
+   	font-size:8px;
+   }
+   
+   
+}
+@media screen and (max-width:900px){
+   header nav .logo{
+      display: none;
+   }
+   header nav ul li a button{
+      display: none;
+   }
+   #contact .grid-contact-container{
+      grid-template-columns:1fr;
+   }
+   #footer .grid-footer-container{
+      grid-template-columns: repeat(2,1fr);
+      grid-gap:30px;
+   }
+}
+@media screen and (max-width:600px){
+   #about .grid-about-container{
+      grid-template-columns:1fr;
+      grid-gap:20px;
+   }
+   #chef .grid-chef-container{
+      grid-template-columns:1fr 1fr;
+
+   }
+   #menu .grid-menu-container{
+      grid-template-columns: 1fr 1fr;
+      grid-gap:10px;
+   }
+   
+  #contact .grid-form-container{
+   grid-template-columns: 1fr;
+  }
+  header nav ul li a{
+   margin-right:10px;
+   line-height: 25px;
+  }
+  #testimonial .item{
+   width:90% !important;
+  }
+  header .menu{
+   margin-left:0px;
+  }
+}
+@media screen and (max-width: 450px){
+  
+   #footer .grid-footer-container{
+      grid-template-columns:1fr;
+      grid-gap:30px;
+   }
+   #menu .grid-menu-container{
+      grid-template-columns: 1fr;
+    }
+    #chef .grid-chef-container{
+      grid-template-columns: 1fr;
+      grid-gap:30px;
+    }
+    
+}
+@media screen and (max-width: 300px){
+    
+    
+   .slider .banner-area h3{
+   font-size:150%;
+  }
+ .slider .banner-area h1{
+   font-size:300% !important;
+  } 
+    
+}
